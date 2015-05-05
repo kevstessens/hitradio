@@ -46,12 +46,12 @@
     <icon gap:platform="android" gap:qualifier="mdpi" src="/icon/android/icon-48-mdpi.png" />
     <icon gap:platform="android" gap:qualifier="hdpi" src="/icon/android/icon-72-hdpi.png" />
     <icon gap:platform="android" gap:qualifier="xhdpi" src="/icon/android/icon-96-xhdpi.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="/screen/android/screen-ldpi-portrait.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="/screen/android/screen-mdpi-portrait.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="/screen/android/screen-hdpi-portrait.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="/screen/android/screen-xhdpi-portrait.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="screen/android/screen-ldpi-portrait.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="screen/android/screen-mdpi-portrait.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="screen/android/screen-hdpi-portrait.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="screen/android/screen-xhdpi-portrait.png" />
+
 
     <access origin="*" />
-    <access origin="http://01.solumedia.com.ar:8098/;" />
 
 </widget>
