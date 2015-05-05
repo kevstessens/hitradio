@@ -2,7 +2,7 @@
 <widget id="com.kevstessens.hitradio" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Hit Radio</name>
     <description>
-        Hit radio app.
+        Hit radio! Escuchá la mejor radio online, desde tu Android, a donde quiera que vayas.
     </description>
     <author email="kevstessens@gmail.com" href="http://www.kevinstessens.com">
         Kevin Stessens
