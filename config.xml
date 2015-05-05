@@ -4,7 +4,7 @@
     <description>
         Hit radio app.
     </description>
-    <author email="kevstessens@gmail.com" href="http://kevinstessens.com">
+    <author email="kevstessens@gmail.com" href="http://www.kevinstessens.com">
         Kevin Stessens
     </author>
     <content src="index.html" />
@@ -67,4 +67,6 @@
     <gap:splash gap:platform="ios" height="768" src="www/res/screen/ios/screen-ipad-landscape.png" width="1024" />
     <gap:splash gap:platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
     <access origin="*" />
+    <access origin="http://01.solumedia.com.ar:8098/;stream.nsv&type=pls" />
+
 </widget>
