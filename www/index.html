@@ -32,36 +32,9 @@
     <body>
     <div style="align-content: center; width: 100%; height: 10%; text-align: center;">
 
-      <!--   <audio controls autoplay style="margin-top: 65%;">
+        <audio controls autoplay style="margin-top: 65%;">
             <source src="http://01.solumedia.com.ar:8098/;stream.mp3" />
-        </audio> -->
-
-
-<audio id="stream" preload='none'>
-        <source src="http://01.solumedia.com.ar:8098/;stream.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    <a href="#" id="audioControl">play!</a>
-
-<script>
-var stream = document.getElementById('stream'),
-ctrl = document.getElementById('audioControl');
-
-ctrl.onclick = function () {
-
-// Update the Button
-var pause = ctrl.innerHTML === 'pause!';
-ctrl.innerHTML = pause ? 'play!' : 'pause!';
-
-// Update the Audio
-var method = pause ? 'pause' : 'play';
-stream[method]();
-
-// Prevent Default Action
-return false;
-};
-</script>
-
+        </audio>
 
 <div id="social-icons" style="margin-top:15%;">
 <a href="https://twitter.com/hitradioOK" target="_blank"><img src="img/twitter.png" width="56" height="56" alt="Twitter" class="mustachié"></a>

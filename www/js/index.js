@@ -34,6 +34,25 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        var audioUrl = "http://01.solumedia.com.ar:8098/;stream.mp3";
+
+          // Play an audio file (not recommended, since the screen will be plain black)
+          window.plugins.streamingMedia.playAudio(audioUrl);
+
+          // Play an audio file with options (all options optional)
+          var options = {
+            bgColor: "#FFFFFF",
+            bgImage: "<SWEET_BACKGROUND_IMAGE>",
+            bgImageScale: "fit",
+            successCallback: function() {
+              console.log("Player closed without error.");
+            },
+            errorCallback: function(errMsg) {
+              console.log("Error! " + errMsg);
+            }
+          };
+          window.plugins.streamingMedia.playAudio(audioUrl, options);
+  
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -46,4 +65,6 @@ var app = {
 
         console.log('Received Event: ' + id);
     }
+ 
+
 };
